@@ -20,4 +20,8 @@ lets make a box of 50x60x45 inside a span parent
 
 //add  `<span class="threeDme other-Classes" data-dimensions="50,60,45"></span>` 
 
+![alt text](https://github.com/ArashkKH/CubeMaker/blob/main/asset/code.png)
+
 easy peasy :)
+
+![alt text](https://github.com/ArashkKH/CubeMaker/blob/main/asset/Screenshot%202022-10-02%20154348.jpg)
