@@ -46,20 +46,68 @@ a {
     display: flex;
     position: relative;
     transform-style: preserve-3d;
-    transform: translate3d(0px,0px,0px) rotateZ(0deg) rotateY(0deg) rotateX(0deg);
-    
 
-    border: solid 1px black;
-    
-    >div {
-        background: yellow;
-        border: solid 1px black;
-    }
 }
 
-main{
+main {
     width: 100%;
     height: 100vh;
     perspective: 800px;
+    background: rgb(0, 0, 63);
     @include fcenter();
+}
+
+.box1 {
+    transform: translate3d(71px, -173px, 0px) rotateZ(26deg) rotateY(155deg) rotateX(65deg);
+    >div {
+        background: yellow;
+        border: solid 1px;
+
+    }
+}
+
+.box2 {
+    transform: translate3d(-95px, 219px, 0px) rotateZ(334deg) rotateY(70deg) rotateX(64deg);
+    >div {
+        background: red;
+        border: solid 1px;
+
+    }
+}
+
+.box3 {
+    transform: translate3d(60px, -91px, 0px) rotateZ(317deg) rotateY(139deg) rotateX(68deg);
+    >div {
+        background: green;
+        border: solid 1px;
+
+    }
+}
+
+.box4 {
+    transform: translate3d(-73px, 44px, 0px) rotateZ(106deg) rotateY(204deg) rotateX(61deg);
+    >div {
+        background: cyan;
+        border: solid 1px;
+
+    }
+}
+
+.box5 {
+    transform: translate3d(24px, 165px, 45px) rotateZ(352deg) rotateY(0deg) rotateX(73deg);
+    >div {
+        background: purple;
+        border: solid 1px;
+
+    }
+}
+
+.box6 {
+    transform: translate3d(0px, 0px, 0px) rotateZ(0deg) rotateY(0deg) rotateX(0deg);
+
+    >div {
+        background: pink;
+        border: solid 1px;
+
+    }
 }
