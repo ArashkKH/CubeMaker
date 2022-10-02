@@ -1,0 +1,60 @@
+li {
+  list-style-type: none;
+}
+
+a {
+  color: inherit;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: 16px;
+}
+@media only screen and (max-width: 1220px) {
+  :root {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 1080px) {
+  :root {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 940px) {
+  :root {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 680px) {
+  :root {
+    font-size: 8px;
+  }
+}
+
+.threeDme {
+  display: flex;
+  position: relative;
+  transform-style: preserve-3d;
+  transform: translate3d(0px, 0px, 0px) rotateZ(0deg) rotateY(0deg) rotateX(0deg);
+  border: solid 1px black;
+}
+.threeDme > div {
+  background: yellow;
+  border: solid 1px black;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  perspective: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */

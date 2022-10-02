@@ -1,0 +1,50 @@
+li {
+  list-style-type: none;
+}
+
+a {
+  color: inherit;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: 16px;
+}
+@media only screen and (max-width: 1220px) {
+  :root {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 1080px) {
+  :root {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 940px) {
+  :root {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 680px) {
+  :root {
+    font-size: 8px;
+  }
+}
+
+.threeDme {
+  display: flex;
+  position: relative;
+  transform-style: preserve-3d;
+  border: solid 1px black;
+}
+.threeDme > div {
+  background: yellow;
+  border: solid 1px black;
+}/*# sourceMappingURL=cubeMaker.css.map */
