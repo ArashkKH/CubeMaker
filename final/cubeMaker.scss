@@ -46,12 +46,9 @@ a {
     display: flex;
     position: relative;
     transform-style: preserve-3d;
-    
-
-    border: solid 1px black;
-    
+        
     >div {
-        background: yellow;
-        border: solid 1px black;
+        
+
     }
 }
